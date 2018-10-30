@@ -1,4 +1,4 @@
-#!/Users/mtrnka/anaconda2/bin/python
+#!/usr/bin/python
 # Mockup script demonstrating pipeline for JXqc with remote prospector search.
 
 from prospectorManipulations import *
@@ -9,14 +9,14 @@ from sys import argv
 # Directory Structure:
 
 dirTree = {
-    'topDir': "/Users/mtrnka/prospectorJX",
+    'topDir': "/home/socr/c/users2/prospector/prospectorJX",
     'peaklistDir': "peaklists",
     'projectDir': "projects",
     'batchTagDir': "batchtags",
     'searchCompDir': "searchcompares",
     'outputDir': "outputs",
-    'btTemplate': "bt_template1.xml",
-    'scTemplate': "sc_template3.xml"
+    'btTemplate': "/templates/bt_template_JXSTD.xml",
+    'scTemplate': "/templates/sc_template_JXSTD.xml"
 }
 
 topDir = os.path.realpath(dirTree['topDir'])
