@@ -81,3 +81,9 @@ def makeSearchCompareFromTemplate(scTemplateFile, projFileName, searchCompDir, o
     bf.write(templ)
     bf.close()
 
+def removeFiles():
+    #delete the peaklist file
+    #delete the project file
+    #delete the batchtag file
+    #delete the searchcompare file
+
